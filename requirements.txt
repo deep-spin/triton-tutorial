@@ -1,0 +1,7 @@
+jupyter
+jupyterlab
+matplotlib
+numpy
+pandas
+torch==2.7.1
+triton==3.3.1
