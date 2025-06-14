@@ -2,18 +2,21 @@
 
 This repository contains a series of puzzle-style Jupyter notebooks that guide you through implementing common GPU kernels first in raw PyTorch, then with `torch.compile`, and finally with Triton. 
 
+## Links
+
+- Triton docs: https://triton-lang.org/main/python-api/triton.html
+- Triton tutorials: https://triton-lang.org/main/getting-started/tutorials/index.html
+
 
 ## Usage
 
-1. **Install dependencies**  
+First, install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-2. **Run**
-
-Open in JupyterLab or Jupyter Notebook, step through each cell, fill in the Triton puzzle, then benchmark and visualize.
+Next, open the notebooks in Jupyter, step through each cell, fill in the Triton puzzle, then benchmark and visualize.
 
 
 ## Puzzles Covered
@@ -28,4 +31,4 @@ Open in JupyterLab or Jupyter Notebook, step through each cell, fill in the Trit
 
 ---
 
-Happy puzzling! Contributions and improvements are welcome via pull requests.
+Happy puzzling! Contributions and improvements are welcome.
