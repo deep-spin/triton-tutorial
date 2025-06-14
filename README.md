@@ -6,12 +6,14 @@ This repository contains a series of puzzle-style Jupyter notebooks that guide y
 ## Usage
 
 1. **Install dependencies**  
-   ```bash
-   pip install -r requirements.txt
-````
+
+```bash
+pip install -r requirements.txt
+```
 
 2. **Run**
-   Open in JupyterLab or Jupyter Notebook, step through each cell, fill in the Triton puzzle, then benchmark and visualize.
+
+Open in JupyterLab or Jupyter Notebook, step through each cell, fill in the Triton puzzle, then benchmark and visualize.
 
 
 ## Puzzles Covered
