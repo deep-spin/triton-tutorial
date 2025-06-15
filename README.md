@@ -1,11 +1,10 @@
 # Triton Tutorial
 
-This repository contains a series of puzzle-style Jupyter notebooks that guide you through implementing common GPU kernels first in raw PyTorch, then with `torch.compile`, and finally with Triton. 
+This repository contains a series of puzzle-style Jupyter notebooks that guide you through implementing common GPU kernels first in raw PyTorch, then with `torch.compile`, and finally with [Triton](https://triton-lang.org/main/python-api/triton.html). 
 
-## Links
 
-- Triton docs: https://triton-lang.org/main/python-api/triton.html
-- Triton tutorials: https://triton-lang.org/main/getting-started/tutorials/index.html
+<img src="sardine-tecnico.png" width="830" />
+
 
 
 ## Usage
