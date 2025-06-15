@@ -29,6 +29,20 @@ Next, open the notebooks in Jupyter, step through each cell, fill in the Triton 
 6. Fused Softmax Attention
 7. Fused Sparsemax / Entmax Attention
 
----
-
 Happy puzzling! Contributions and improvements are welcome.
+
+
+## Further References
+
+- [Triton Tutorial](https://triton-lang.org/main/getting-started/tutorials/index.html)
+- [GPU Mode](https://www.youtube.com/@GPUMODE) (Specially lecture 14)
+- [Christian Mills' Notes](https://christianjmills.com/posts/cuda-mode-notes/lecture-014/)
+
+
+Kernels:
+
+- [LightLLM](https://github.com/ModelTC/lightllm/tree/main/lightllm/common/basemodel/triton_kernel)
+- [Unsloth](https://github.com/unslothai/unsloth/tree/main/unsloth/kernels) 
+- [Liger](https://github.com/linkedin/Liger-Kernel/tree/main/src/liger_kernel/ops) 
+
+
