@@ -51,14 +51,14 @@ def matmul_kernel_advanced(
         b = tl.load(b_ptrs, mask=offs_k[:, None] < K - k * BLOCK_SIZE_K, other=0.0)
         
         # Matrix multiply and accumulate
-        acc = tl.dot(a, b, acc)
+        acc += tl.dot(a, b)
         
         # Advance the pointers
         a_ptrs += BLOCK_SIZE_K * stride_ak
         b_ptrs += BLOCK_SIZE_K * stride_bk
     
     # Convert accumulator to output dtype
-    acc = acc.to(c_ptr.dtype.element_ty)
+    # acc = acc.to(c_ptr.dtype.element_ty)
     
     # Store output
     offs_cm = pid_m * BLOCK_SIZE_M + tl.arange(0, BLOCK_SIZE_M)

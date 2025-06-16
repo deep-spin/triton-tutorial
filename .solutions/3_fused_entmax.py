@@ -8,7 +8,14 @@ def alpha_entmax(x, tau, alpha):
 
 
 @triton.jit
-def _ent_bisect(x_ptr, y_ptr, alpha, n_iter, N: tl.constexpr, TILE: tl.constexpr):
+def _ent_bisect(
+    x_ptr, 
+    y_ptr, 
+    alpha, 
+    n_iter, 
+    N: tl.constexpr, 
+    TILE: tl.constexpr
+):
     # get row that this thread block will be responsible for
     curr_row = tl.program_id(0)
 
