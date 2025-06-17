@@ -47,7 +47,8 @@ Now, just open the notebooks in Jupyter, step through each cell and solve the pu
 4. Matrix Multiplication
 5. Layer Normalization
 6. Cross-Entropy Loss
-7. Softmax Attention
+7. Softmax Attention - Forward Pass
+8. Sparsemax Attention - Forward Pass (*BONUS*)
 
 Happy puzzling! 
 
