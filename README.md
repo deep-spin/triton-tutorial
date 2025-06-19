@@ -2,6 +2,8 @@
 
 This repository contains a series of puzzle-style Jupyter notebooks that guide you through implementing common GPU kernels first in raw PyTorch, then with `torch.compile`, and finally with [Triton](https://triton-lang.org/main/python-api/triton.html). 
 
+Slides: https://docs.google.com/presentation/d/1VooJ3gQlhbPSyG5F08JTgvo7FCm4TyVivvdLl_gZ7-c
+
 
 <img src="figs/sardine-tecnico.png" width="830" />
 
@@ -54,12 +56,13 @@ Happy puzzling!
 
 ---
 
-## Further References
+## References
 
 - [Triton Docs](https://triton-lang.org/main/python-api/triton.html)
 - [Triton Tutorial](https://triton-lang.org/main/getting-started/tutorials/index.html)
 - [GPU Mode](https://www.youtube.com/@GPUMODE) (lecture 14)
 - [Christian Mills' Notes](https://christianjmills.com/posts/cuda-mode-notes/lecture-014/)
+- [Stanford CS336: Language modeling from scratch](https://github.com/stanford-cs336/spring2025-lectures/) (lecture 5)
 
 Kernels:
 
